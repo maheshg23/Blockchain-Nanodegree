@@ -1,0 +1,1400 @@
+{
+  "contractName": "EnumsContract",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "arg",
+          "type": "uint8"
+        }
+      ],
+      "name": "getNames",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"arg\",\"type\":\"uint8\"}],\"name\":\"getNames\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/mahesh/Desktop/Blockchain/Blockchain-Nanodegree/smart-contracts-solidity/contracts/enumsContract.sol\":\"EnumsContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/mahesh/Desktop/Blockchain/Blockchain-Nanodegree/smart-contracts-solidity/contracts/enumsContract.sol\":{\"keccak256\":\"0x653865634db9c2a2577842b38b3b90ae2b47a748a77132cb4b67490af3554870\",\"urls\":[\"bzz-raw://448fe08c87b4ee9028553b9b46a6a42129d7d62c5c733b9a513ea0d9b1f3fa63\",\"dweb:/ipfs/QmZM25h5pDZoPrMGgJnCBhryG6YTSWQBHuxzhSmqdZqkpH\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610272806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063575e3ab314610030575b600080fd5b61005f6004803603602081101561004657600080fd5b81019080803560ff1690602001909291905050506100da565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009f578082015181840152602081019050610084565b50505050905090810190601f1680156100cc5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6060600060038111156100e957fe5b60ff168260ff161415610133576040518060400160405280600381526020017f4a6f6500000000000000000000000000000000000000000000000000000000008152509050610238565b6001600381111561014057fe5b60ff168260ff16141561018a576040518060400160405280600681526020017f4272616e647900000000000000000000000000000000000000000000000000008152509050610238565b6002600381111561019757fe5b60ff168260ff1614156101e1576040518060400160405280600681526020017f526163686e6100000000000000000000000000000000000000000000000000008152509050610238565b6003808111156101ed57fe5b60ff168260ff161415610237576040518060400160405280600781526020017f4a657373696361000000000000000000000000000000000000000000000000008152509050610238565b5b91905056fea265627a7a7231582061d95562bd8dbf91a2a96ab804a213c222bbb58a5c51cf0ff72613fe070505cc64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c8063575e3ab314610030575b600080fd5b61005f6004803603602081101561004657600080fd5b81019080803560ff1690602001909291905050506100da565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009f578082015181840152602081019050610084565b50505050905090810190601f1680156100cc5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6060600060038111156100e957fe5b60ff168260ff161415610133576040518060400160405280600381526020017f4a6f6500000000000000000000000000000000000000000000000000000000008152509050610238565b6001600381111561014057fe5b60ff168260ff16141561018a576040518060400160405280600681526020017f4272616e647900000000000000000000000000000000000000000000000000008152509050610238565b6002600381111561019757fe5b60ff168260ff1614156101e1576040518060400160405280600681526020017f526163686e6100000000000000000000000000000000000000000000000000008152509050610238565b6003808111156101ed57fe5b60ff168260ff161415610237576040518060400160405280600781526020017f4a657373696361000000000000000000000000000000000000000000000000008152509050610238565b5b91905056fea265627a7a7231582061d95562bd8dbf91a2a96ab804a213c222bbb58a5c51cf0ff72613fe070505cc64736f6c63430005100032",
+  "sourceMap": "27:439:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:439:3;;;;;;;",
+  "deployedSourceMap": "27:439:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:439:3;;;;;;;;;;;;;;;;;;;173:291;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;173:291:3;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;173:291:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;223:13;263:9;257:16;;;;;;;;250:23;;:3;:23;;;247:40;;;275:12;;;;;;;;;;;;;;;;;;;;;247:40;313:12;307:19;;;;;;;;300:26;;:3;:26;;;297:46;;;328:15;;;;;;;;;;;;;;;;;;;;;297:46;369:12;363:19;;;;;;;;356:26;;:3;:26;;;353:46;;;384:15;;;;;;;;;;;;;;;;;;;;;353:46;425:13;419:20;;;;;;;;412:27;;:3;:27;;;409:48;;;441:16;;;;;;;;;;;;;;;;;;;;;409:48;173:291;;;;:::o",
+  "source": "pragma solidity >=0.4.24;\n\ncontract EnumsContract {\n\n    // Create an Enumeration\n    enum names {Joe, Brandy, Rachna, Jessica}\n\n    // get the value at specified index\n    function getNames(uint8 arg) public pure returns (string memory){\n        if(arg == uint8(names.Joe)) return \"Joe\";\n        if(arg == uint8(names.Brandy)) return \"Brandy\";\n        if(arg == uint8(names.Rachna)) return \"Rachna\";\n        if(arg == uint8(names.Jessica)) return \"Jessica\";\n    }\n}",
+  "sourcePath": "/Users/mahesh/Desktop/Blockchain/Blockchain-Nanodegree/smart-contracts-solidity/contracts/enumsContract.sol",
+  "ast": {
+    "absolutePath": "/Users/mahesh/Desktop/Blockchain/Blockchain-Nanodegree/smart-contracts-solidity/contracts/enumsContract.sol",
+    "exportedSymbols": {
+      "EnumsContract": [
+        225
+      ]
+    },
+    "id": 226,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 175,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 225,
+        "linearizedBaseContracts": [
+          225
+        ],
+        "name": "EnumsContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "EnumsContract.names",
+            "id": 180,
+            "members": [
+              {
+                "id": 176,
+                "name": "Joe",
+                "nodeType": "EnumValue",
+                "src": "98:3:3"
+              },
+              {
+                "id": 177,
+                "name": "Brandy",
+                "nodeType": "EnumValue",
+                "src": "103:6:3"
+              },
+              {
+                "id": 178,
+                "name": "Rachna",
+                "nodeType": "EnumValue",
+                "src": "111:6:3"
+              },
+              {
+                "id": 179,
+                "name": "Jessica",
+                "nodeType": "EnumValue",
+                "src": "119:7:3"
+              }
+            ],
+            "name": "names",
+            "nodeType": "EnumDefinition",
+            "src": "86:41:3"
+          },
+          {
+            "body": {
+              "id": 223,
+              "nodeType": "Block",
+              "src": "237:227:3",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 192,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 187,
+                      "name": "arg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 182,
+                      "src": "250:3:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 189,
+                            "name": "names",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 180,
+                            "src": "263:5:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_names_$180_$",
+                              "typeString": "type(enum EnumsContract.names)"
+                            }
+                          },
+                          "id": 190,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Joe",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "263:9:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        ],
+                        "id": 188,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "257:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint8_$",
+                          "typeString": "type(uint8)"
+                        },
+                        "typeName": "uint8"
+                      },
+                      "id": 191,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "257:16:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "250:23:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 195,
+                  "nodeType": "IfStatement",
+                  "src": "247:40:3",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "4a6f65",
+                      "id": 193,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "282:5:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_8a40c1724dc7fbc940859ea861c5a6a1efe8c51266e609f6afb944f618adac82",
+                        "typeString": "literal_string \"Joe\""
+                      },
+                      "value": "Joe"
+                    },
+                    "functionReturnParameters": 186,
+                    "id": 194,
+                    "nodeType": "Return",
+                    "src": "275:12:3"
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 201,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 196,
+                      "name": "arg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 182,
+                      "src": "300:3:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 198,
+                            "name": "names",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 180,
+                            "src": "313:5:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_names_$180_$",
+                              "typeString": "type(enum EnumsContract.names)"
+                            }
+                          },
+                          "id": 199,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Brandy",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "313:12:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        ],
+                        "id": 197,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "307:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint8_$",
+                          "typeString": "type(uint8)"
+                        },
+                        "typeName": "uint8"
+                      },
+                      "id": 200,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "307:19:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "300:26:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 204,
+                  "nodeType": "IfStatement",
+                  "src": "297:46:3",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "4272616e6479",
+                      "id": 202,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "335:8:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_54aa10c5ed19d2bffb4dbaa8b085527d7750623e9e49ac42d7f4f9409d4d7aea",
+                        "typeString": "literal_string \"Brandy\""
+                      },
+                      "value": "Brandy"
+                    },
+                    "functionReturnParameters": 186,
+                    "id": 203,
+                    "nodeType": "Return",
+                    "src": "328:15:3"
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 210,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 205,
+                      "name": "arg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 182,
+                      "src": "356:3:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 207,
+                            "name": "names",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 180,
+                            "src": "369:5:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_names_$180_$",
+                              "typeString": "type(enum EnumsContract.names)"
+                            }
+                          },
+                          "id": 208,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Rachna",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "369:12:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        ],
+                        "id": 206,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "363:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint8_$",
+                          "typeString": "type(uint8)"
+                        },
+                        "typeName": "uint8"
+                      },
+                      "id": 209,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "363:19:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "356:26:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 213,
+                  "nodeType": "IfStatement",
+                  "src": "353:46:3",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "526163686e61",
+                      "id": 211,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "391:8:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_33deb0df548b362e7acc3b1009c04bb293ebca4861b6d410db7c51c6aa70fe22",
+                        "typeString": "literal_string \"Rachna\""
+                      },
+                      "value": "Rachna"
+                    },
+                    "functionReturnParameters": 186,
+                    "id": 212,
+                    "nodeType": "Return",
+                    "src": "384:15:3"
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 219,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 214,
+                      "name": "arg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 182,
+                      "src": "412:3:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 216,
+                            "name": "names",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 180,
+                            "src": "425:5:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_names_$180_$",
+                              "typeString": "type(enum EnumsContract.names)"
+                            }
+                          },
+                          "id": 217,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Jessica",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "425:13:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        ],
+                        "id": 215,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "419:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint8_$",
+                          "typeString": "type(uint8)"
+                        },
+                        "typeName": "uint8"
+                      },
+                      "id": 218,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "419:20:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "412:27:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 222,
+                  "nodeType": "IfStatement",
+                  "src": "409:48:3",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "4a657373696361",
+                      "id": 220,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "448:9:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_fec7ec9d33b0e4b9a5552d18b238c4cfc932600da309b616755dce511fa1e664",
+                        "typeString": "literal_string \"Jessica\""
+                      },
+                      "value": "Jessica"
+                    },
+                    "functionReturnParameters": 186,
+                    "id": 221,
+                    "nodeType": "Return",
+                    "src": "441:16:3"
+                  }
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 224,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNames",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 183,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 182,
+                  "name": "arg",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 224,
+                  "src": "191:9:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 181,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "191:5:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "190:11:3"
+            },
+            "returnParameters": {
+              "id": 186,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 185,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 224,
+                  "src": "223:13:3",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 184,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "223:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "222:15:3"
+            },
+            "scope": 225,
+            "src": "173:291:3",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 226,
+        "src": "27:439:3"
+      }
+    ],
+    "src": "0:466:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/mahesh/Desktop/Blockchain/Blockchain-Nanodegree/smart-contracts-solidity/contracts/enumsContract.sol",
+    "exportedSymbols": {
+      "EnumsContract": [
+        225
+      ]
+    },
+    "id": 226,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 175,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 225,
+        "linearizedBaseContracts": [
+          225
+        ],
+        "name": "EnumsContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "EnumsContract.names",
+            "id": 180,
+            "members": [
+              {
+                "id": 176,
+                "name": "Joe",
+                "nodeType": "EnumValue",
+                "src": "98:3:3"
+              },
+              {
+                "id": 177,
+                "name": "Brandy",
+                "nodeType": "EnumValue",
+                "src": "103:6:3"
+              },
+              {
+                "id": 178,
+                "name": "Rachna",
+                "nodeType": "EnumValue",
+                "src": "111:6:3"
+              },
+              {
+                "id": 179,
+                "name": "Jessica",
+                "nodeType": "EnumValue",
+                "src": "119:7:3"
+              }
+            ],
+            "name": "names",
+            "nodeType": "EnumDefinition",
+            "src": "86:41:3"
+          },
+          {
+            "body": {
+              "id": 223,
+              "nodeType": "Block",
+              "src": "237:227:3",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 192,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 187,
+                      "name": "arg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 182,
+                      "src": "250:3:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 189,
+                            "name": "names",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 180,
+                            "src": "263:5:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_names_$180_$",
+                              "typeString": "type(enum EnumsContract.names)"
+                            }
+                          },
+                          "id": 190,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Joe",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "263:9:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        ],
+                        "id": 188,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "257:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint8_$",
+                          "typeString": "type(uint8)"
+                        },
+                        "typeName": "uint8"
+                      },
+                      "id": 191,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "257:16:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "250:23:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 195,
+                  "nodeType": "IfStatement",
+                  "src": "247:40:3",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "4a6f65",
+                      "id": 193,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "282:5:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_8a40c1724dc7fbc940859ea861c5a6a1efe8c51266e609f6afb944f618adac82",
+                        "typeString": "literal_string \"Joe\""
+                      },
+                      "value": "Joe"
+                    },
+                    "functionReturnParameters": 186,
+                    "id": 194,
+                    "nodeType": "Return",
+                    "src": "275:12:3"
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 201,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 196,
+                      "name": "arg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 182,
+                      "src": "300:3:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 198,
+                            "name": "names",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 180,
+                            "src": "313:5:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_names_$180_$",
+                              "typeString": "type(enum EnumsContract.names)"
+                            }
+                          },
+                          "id": 199,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Brandy",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "313:12:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        ],
+                        "id": 197,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "307:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint8_$",
+                          "typeString": "type(uint8)"
+                        },
+                        "typeName": "uint8"
+                      },
+                      "id": 200,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "307:19:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "300:26:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 204,
+                  "nodeType": "IfStatement",
+                  "src": "297:46:3",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "4272616e6479",
+                      "id": 202,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "335:8:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_54aa10c5ed19d2bffb4dbaa8b085527d7750623e9e49ac42d7f4f9409d4d7aea",
+                        "typeString": "literal_string \"Brandy\""
+                      },
+                      "value": "Brandy"
+                    },
+                    "functionReturnParameters": 186,
+                    "id": 203,
+                    "nodeType": "Return",
+                    "src": "328:15:3"
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 210,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 205,
+                      "name": "arg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 182,
+                      "src": "356:3:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 207,
+                            "name": "names",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 180,
+                            "src": "369:5:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_names_$180_$",
+                              "typeString": "type(enum EnumsContract.names)"
+                            }
+                          },
+                          "id": 208,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Rachna",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "369:12:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        ],
+                        "id": 206,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "363:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint8_$",
+                          "typeString": "type(uint8)"
+                        },
+                        "typeName": "uint8"
+                      },
+                      "id": 209,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "363:19:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "356:26:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 213,
+                  "nodeType": "IfStatement",
+                  "src": "353:46:3",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "526163686e61",
+                      "id": 211,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "391:8:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_33deb0df548b362e7acc3b1009c04bb293ebca4861b6d410db7c51c6aa70fe22",
+                        "typeString": "literal_string \"Rachna\""
+                      },
+                      "value": "Rachna"
+                    },
+                    "functionReturnParameters": 186,
+                    "id": 212,
+                    "nodeType": "Return",
+                    "src": "384:15:3"
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 219,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 214,
+                      "name": "arg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 182,
+                      "src": "412:3:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 216,
+                            "name": "names",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 180,
+                            "src": "425:5:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_names_$180_$",
+                              "typeString": "type(enum EnumsContract.names)"
+                            }
+                          },
+                          "id": 217,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Jessica",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "425:13:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_enum$_names_$180",
+                            "typeString": "enum EnumsContract.names"
+                          }
+                        ],
+                        "id": 215,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "419:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint8_$",
+                          "typeString": "type(uint8)"
+                        },
+                        "typeName": "uint8"
+                      },
+                      "id": 218,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "419:20:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "412:27:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 222,
+                  "nodeType": "IfStatement",
+                  "src": "409:48:3",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "hexValue": "4a657373696361",
+                      "id": 220,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "448:9:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_fec7ec9d33b0e4b9a5552d18b238c4cfc932600da309b616755dce511fa1e664",
+                        "typeString": "literal_string \"Jessica\""
+                      },
+                      "value": "Jessica"
+                    },
+                    "functionReturnParameters": 186,
+                    "id": 221,
+                    "nodeType": "Return",
+                    "src": "441:16:3"
+                  }
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 224,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNames",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 183,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 182,
+                  "name": "arg",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 224,
+                  "src": "191:9:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 181,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "191:5:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "190:11:3"
+            },
+            "returnParameters": {
+              "id": 186,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 185,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 224,
+                  "src": "223:13:3",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 184,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "223:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "222:15:3"
+            },
+            "scope": 225,
+            "src": "173:291:3",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 226,
+        "src": "27:439:3"
+      }
+    ],
+    "src": "0:466:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.1.0",
+  "updatedAt": "2020-04-26T22:14:33.436Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

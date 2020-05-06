@@ -32,5 +32,23 @@
 - Contract https://rinkeby.etherscan.io/address/0x6d6e4d175fbd1ef089678ccc3774baba59f25b3c
 
 
+### Smart Contracts Example Solidity 
+- Standard Generic Contrcts using Solidity 
+- Solidity coding examples
+
+
+### Star Notary Version 1 
+
+
+
+### Star Notary Version 2 - MahiStar Token
+- Created my own ERC721 Token on the Rinkeby Network
+- MahiStar Token 
+- https://rinkeby.etherscan.io/token/0x14950256ea01acfda2033466eddcbe7fb8486d87
+
+
+### Blockchain Privacy
+
+
 
 
