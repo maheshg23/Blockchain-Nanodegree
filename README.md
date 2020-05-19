@@ -38,7 +38,8 @@
 
 
 ### Star Notary Version 1 
-
+- Created my own local token and testing it on Local Ganache
+- Tested all the functionality of the token locally
 
 
 ### Star Notary Version 2 - MahiStar Token
@@ -48,7 +49,9 @@
 
 
 ### Blockchain Privacy
-
-
-
-
+- DAO Attacks 
+- Parity Attacks 
+- Differential Privacy 
+- Hashing 
+- Merkle Trees
+- Ring Signatures

@@ -1,4 +1,6 @@
 # Star Notary V1
+- Created my own local token and testing it on Local Ganache
+- Tested all the functionality of the token locally
 
 For this you will need to use the latest version of Truffle and Metamask
 
