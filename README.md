@@ -34,7 +34,7 @@
 
 ### Smart Contracts Example Solidity 
 - Standard Generic Contrcts using Solidity 
-- Solidity coding examples
+- Solidity coding examples for writing Smart Contracts
 
 
 ### Star Notary Version 1 
